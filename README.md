@@ -6,11 +6,11 @@
 -kは kustomiseに従って、デプロイ
 
 ```
-kubectl apply -k ./config
+kubectl apply -k ./wordpress
 ```
 
 ##　delete
 
 ```
-kubectl delete -k ./config
+kubectl delete -k ./wordpress
 ```
